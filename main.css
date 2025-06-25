@@ -101,17 +101,17 @@ body {
 }
 .products {
     display: flex;
-    grid-area: 12px;
+    gap: 12px;
     flex-wrap: wrap;
-    margin: 0 12px;
+    margin: 12px 12px;
 }
 .products-item {
-    background-image: url(Figure\ \(3\).png);
-    background-size: cover;
-    background-repeat: no-repeat;
-    width: calc(50%-6px);
     height: 580px;
+    background-image: url(product1.png);
+    width: calc(50% - 6px);
+    background-size: cover;
     background-position: center;
+    
 }
                     /* TABLET */
 
