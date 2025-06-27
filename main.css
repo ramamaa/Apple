@@ -1,5 +1,7 @@
 body {
     margin: 0;
+    max-width: 1920px;
+    
 }
 .nav {
     display: flex;
@@ -27,17 +29,19 @@ body {
     align-items: center;
     font-weight: 400;
 }
-.Header-item {
+
+.Phone {
     background-image: url(Background.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-    width: 100%;
     height: 692px;
+    background-size: cover;
     background-position: center;
-    margin-top: 12px;
+    margin-top: 12px;   
 }
-.Header-item :nth-child(2) {
+.Phone-1 {
     background-image: url(Background2.png);
+}
+.Phone-2 {
+    background-image: url(product11.png);
 }
 .Heading {
     font-size: 52px;
@@ -51,7 +55,7 @@ body {
 }
 .Heading-black {
     color: black;
-    margin: 446px;
+    padding-top: 446px;
 }
 .Title {
     font-size: 24px;
@@ -60,6 +64,7 @@ body {
     text-align: center;
     color: rgba(245, 245, 247, 1); 
     margin: 0;
+   
 }
 .Title-black{
     color: black;
@@ -97,57 +102,83 @@ body {
     border: 1px white solid;
     color: white;
 }
-.ip16 {
-    background-image: url(Background2.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-    width: 100%;
-    height: 692px;
-    margin-top: 12px;
-    background-position: center;
-}
 
 
-.products {
+.product-container {
     display: flex;
     gap: 12px;
     flex-wrap: wrap;
     margin: 12px 12px;
 }
-.products-item {
+.products {
+    box-sizing: border-box;
     height: 580px;
     background-image: url(product1.png);
     width: calc(50% - 6px);
     background-size: cover;
-    background-position: center;  
+    background-position: center; 
+    text-align: center;
+    justify-content: center; 
+    padding-top: 58px;
 }
-.products :nth-child(1){
-    height: 692px;
-    background-image: url(product11.png);
-    width: 100%;
-    background-size: cover;
-    background-position: center;
-    display: none;
-    background-repeat: no-repeat;
-}
-.products :nth-child(3){
+
+.products-item2 {
     background-image: url(product2.png);
+    padding-top: 0px;
 }
-.products :nth-child(4){
+.products-item3 {
     background-image: url(product3.png);
 }
-.products :nth-child(5){
+.products-item4 {
     background-image: url(product5.png);
 }
-.products :nth-child(6){
+.products-item5 {
     background-image: url(product6.png);
 }
-.products :nth-child(7){
+.products-item6{
     background-image: url(product7.png);
 }
-.products :nth-child(8){
+.products-item7{
     display: none;
 }
+.product-header {
+    font-family: Inter;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 44px;
+    
+}
+.product-header--white {
+    color: white;
+    padding-top: 401px;
+}
+.product-text {
+    font-weight: 400;
+    font-size: 18px;
+    font-family: Inter;
+    line-height: 25px;
+    color: rgba(29, 29, 31, 1);
+}
+.product-text--white {
+    color: white;
+}
+.product-text--color {
+    padding-top: 324px;
+}
+    /* Title-n urd talin logog Before gd 8px gap awarai */
+.product-title {
+    font-size: 32px;
+    font-family: Inter;
+    font-weight: 700;
+    color: black;
+}
+.product-minititle {
+    font-family: Inter;
+    font-size: 15px;
+    color: black;
+    font-weight: 700;
+}
+
                     /* TABLET */
 
 @media only screen and (max-width: 768px) {
@@ -172,7 +203,7 @@ body {
         justify-content: flex-end;
         gap: 12px;
     }
-    .ip16pro-header {
+    .Heading {
     font-size: 42px;
     font-family: Inter;
     font-weight: 600;
@@ -181,8 +212,8 @@ body {
     padding-top: 58px;
     margin: 0;
 
-}
-.ip16pro-text {
+    }
+    .Title {
     font-size: 22px;
     font-family: Inter;
     font-weight: 400; 
@@ -190,7 +221,7 @@ body {
     color: rgba(245, 245, 247, 1); 
     margin: 0;
 }
-.ip16pro {
+.Phone {
     background-image: url(BackgroundM.png);
     background-size: cover;
     background-repeat: no-repeat;
@@ -198,23 +229,27 @@ body {
     height: 650px;  
     background-position: center;  
 }
+.Phone-1 {
+    background-image: url(Background2M.png);
+}
+.Phone-2 {
+    display: none;
+}
 .nav-header {
     font-family: Inter;
     font-size: 14px;
     text-align: center;
     align-items: center;
     font-weight: 400;
-  padding: 0px 152px;
+    padding: 0px 152px;
 }
-.ip16 {
-    background-image: url(Background2M.png);
-    background-size: cover;
-    background-repeat: no-repeat;
+.products:nth-child(1) {
     width: 100%;
-    height: 692px;
-    margin-top: 12px;
-    background-position: center;
 }
+.products:nth-child(2) {
+    display: none;
+}
+
 }
             /* SmartPhone */
 @media only screen and (max-width: 390px) {
