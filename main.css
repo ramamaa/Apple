@@ -345,4 +345,19 @@ display: none;
     width: 100%;
 }
 }
+.parent {
+    display: flex;
+    gap: 16px;
+    overflow-x: scroll;
+    scroll-snap-type: mandatory;
+
+}
+.child {
+    width: 1250px;
+    height: 668px;
+    background-color: aqua;
+    border: 3px solid cyan;
+    flex-shrink: 0;
+    scroll-snap-align: start;
+}
 

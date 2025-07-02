@@ -1,0 +1,106 @@
+body {
+    margin: 0;
+    max-width: 1920px;
+    
+}
+.nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+}
+.nav-text {
+    font-size: 12px;
+    text-align: center;
+    font-family: Inter;
+    margin-right: 12px;
+}
+.nav-header {
+    font-family: Inter;
+    font-size: 14px;
+    text-align: center;
+    align-items: center;
+    font-weight: 400;
+    line-height: 20px;
+    padding: 20px 0px;
+}
+.Header {
+    padding: 80px 140px;
+    display: flex;
+    justify-content: space-between;
+}
+.Header-magic {
+    display: flex;
+    gap: 32px;
+}
+.Header-text {
+    font-size: 44px;
+    font-family: Inter;
+    font-weight: 700;
+    color: rgba(110, 110, 115, 1);
+    line-height: 52px;
+}
+.Header-text--colorful{
+    background: linear-gradient(90deg, #0090F7 0%, #BA62FC 50%, #F2416B 100%);
+}
+.Header-help {
+    font-size: 14px;
+    font-family: Inter;
+    font-weight: 700;
+    color: rgba(29, 29, 31, 1);
+    text-align: start;
+    line-height: 20px;
+}
+.Header-help--blue {
+    font-size: 14px;
+    color: rgba(0, 102, 204, 1);
+    text-align: start;
+    line-height: 20px;
+}
+.Header-help--margin {
+    margin-top: 16px;
+}
+/* Header help-n urd ni zurag orj irne Before ashiglaad  */
+.parent {
+    display: flex;
+    gap: 28px;
+    margin:0px 140px;
+}
+.child {
+    width: 120px;
+    height: 78px;
+   
+}
+.child:nth-child(1){
+    background-image: url(pictures/Background/store/Mac.png);
+}
+.child:nth-child(2){
+    background-image: url(pictures/Background/store/iPhone.png);
+}
+.child:nth-child(3){
+    background-image: url(pictures/Background/store/iPad.png);
+}
+.child:nth-child(4){
+    background-image: url(pictures/Background/store/Apple\ Watch.png);
+}
+.child:nth-child(5){
+    background-image: url(pictures/Background/store/Apple\ Vision\ Pro.png);
+}
+.child:nth-child(6){
+    background-image: url(pictures/Background/store/Airpods.png);
+}
+.child:nth-child(7){
+    background-image: url(pictures/Background/store/AirTag.png);
+}
+.child:nth-child(8){
+    background-image: url(pictures/Background/store/Apple\ TV\ 4K.png);
+}
+.child:nth-child(9){
+    background-image: url(pictures/Background/store/Homepod.png);
+}
+.child:nth-child(10){
+    background-image: url(pictures/Background/store/Accessories.png);
+}
+.child:nth-child(11){
+    background-image: url(pictures/Background/store/Apple\ Gift\ Card.png);
+}
