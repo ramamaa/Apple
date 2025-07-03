@@ -42,6 +42,8 @@ body {
 }
 .Header-text--colorful{
     background: linear-gradient(90deg, #0090F7 0%, #BA62FC 50%, #F2416B 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 .Header-help {
     font-size: 14px;
@@ -66,41 +68,143 @@ body {
     gap: 28px;
     margin:0px 140px;
 }
-.child {
-    width: 120px;
-    height: 78px;
-   
+
+.child-text {
+    text-align: center;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 700;
+    font-family: Inter;
+
 }
-.child:nth-child(1){
+.child-mac {
     background-image: url(pictures/Background/store/Mac.png);
+     width: 120px;
+    height: 78px;
+     margin: 16px 8px;
 }
-.child:nth-child(2){
+.child-iphone {
     background-image: url(pictures/Background/store/iPhone.png);
+     width: 120px;
+    height: 78px;
+     margin: 16px 8px;
 }
-.child:nth-child(3){
+.child-ipad {
     background-image: url(pictures/Background/store/iPad.png);
+     width: 120px;
+    height: 78px;
+     margin: 16px 8px;
 }
-.child:nth-child(4){
+.child-watch {
     background-image: url(pictures/Background/store/Apple\ Watch.png);
+     width: 120px;
+    height: 78px;
+     margin: 16px 8px;
 }
-.child:nth-child(5){
+.child-vision {
     background-image: url(pictures/Background/store/Apple\ Vision\ Pro.png);
+     width: 120px;
+    height: 78px;
+     margin: 16px 8px;
 }
-.child:nth-child(6){
+.child-airpod {
     background-image: url(pictures/Background/store/Airpods.png);
+     width: 120px;
+    height: 78px;
+     margin: 16px 8px;
 }
-.child:nth-child(7){
+.child-airtag {
     background-image: url(pictures/Background/store/AirTag.png);
+     width: 120px;
+    height: 78px;
+     margin: 16px 8px;
 }
-.child:nth-child(8){
+.child-tv {
     background-image: url(pictures/Background/store/Apple\ TV\ 4K.png);
+     width: 120px;
+    height: 78px;
+     margin: 16px 8px;
 }
-.child:nth-child(9){
+.child-homepod {
     background-image: url(pictures/Background/store/Homepod.png);
+     width: 120px;
+    height: 78px;
+     margin: 16px 8px;
 }
-.child:nth-child(10){
+.child-accessories {
     background-image: url(pictures/Background/store/Accessories.png);
+     width: 120px;
+    height: 78px;
+     margin: 16px 8px;
 }
-.child:nth-child(11){
+.child-gift {
     background-image: url(pictures/Background/store/Apple\ Gift\ Card.png);
+     width: 120px;
+    height: 78px;
+    margin: 16px 8px;
+}
+.title {
+    display: flex;
+    gap: 4px;
+    margin-top: 60px;
+    padding-left: 140px;
+}
+.title-text {
+    color: rgba(110, 110, 115, 1);
+    font-size: 24px;
+    line-height: 32px;
+    font-weight: 700;
+    font-family: Inter;
+}
+.title-text--colorful {
+     background: linear-gradient(90deg, #0090F7 0%, #BA62FC 50%, #F2416B 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.Latest {
+    display: flex;
+    gap: 16px;
+    overflow-x: scroll;
+    scroll-snap-type: mandatory;
+    padding-left: 140px;
+
+}
+.Latest__item {
+    width: 480px;
+    height: 500px;
+    border-radius: 18px;
+    flex-shrink: 0;
+    scroll-snap-align: start;
+}
+.Latest__item:nth-child(1){
+    background-image: url(pictures/Background/store/Latestitem1.png);
+}
+.Latest__item:nth-child(2){
+    
+}
+.Latest__item:nth-child(3){
+    
+}
+.Latest__item:nth-child(4){
+    
+}
+.Latest-Header {
+    font-family: Inter;
+    font-size: 12px;
+    line-height: 16px;
+    font-weight: 700;
+    color: rgba(182, 68, 0, 1);
+}
+.Latest-title {
+    font-family: Inter;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 32px;
+    letter-spacing: 0.2px;
+}
+.Latest-text {
+    font-family: Inter;
+    font-size: 18px;
+    line-height: 20px;
+    margin-top: 12px;
 }
